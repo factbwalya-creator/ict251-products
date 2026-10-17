@@ -1,0 +1,21 @@
+$kind: http-request
+name: http://localhost:3000/api/products
+description: ""
+url: http://localhost:3000/api/products
+method: GET
+body:
+  type: json
+  content: "{\r
+
+    \    \"product_name\": \"Test Product\",\r
+
+    \    \"brand\": \"Test Brand\",\r
+
+    \    \"category\": \"Test Category\",\r
+
+    \    \"price\": 100.00,\r
+
+    \    \"stock_quantity\": 5\r
+
+    }"
+order: 1000
